@@ -9,13 +9,17 @@ public class Main {
     public static void main(String[] args) {
         checkForPalindrome("I did, did I?");
         checkForPalindrome("Racecar");
+
+
+
         checkForPalindrome("hello");
         checkForPalindrome("Was it a car or a cat I saw ?");
+
+        System.out.println("**************");
 
         System.out.println(convertDecimalToBinary(5));  // 101
         System.out.println(convertDecimalToBinary(6));  // 110
         System.out.println(convertDecimalToBinary(13)); // 1101
-        System.out.println(convertDecimalToBinary(45)); // 101101
     }
 
     public static boolean checkForPalindrome(String input){
